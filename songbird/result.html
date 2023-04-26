@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Songbird</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <a class="logo header__logo" href="/"
+          ><img src="assets/img/logo.jpg"
+        /></a>
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/songbird/index.html">Главная</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="game.html">Викторина</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="result">
+        <div class="result__box">
+          <h2 class="result__title">Поздравляем!</h2>
+          <p class="result__text">
+            Вы прошли викторину и набрали <span class="result__score"></span> из
+            30 возможных баллов
+          </p>
+          <div class="btn-start result__btn">
+            <a href="game.html">Попробовать ещё раз</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <a
+          href="https://github.com/lana-tsiv"
+          target="_blank"
+          class="footer__text"
+          >Lana Tsiushkevich 2022</a
+        >
+        <a class="footer__logo" target="_blank" href="https://rs.school/js/">
+          <img src="assets/img/rs_school_js.svg" alt="" />
+        </a>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
